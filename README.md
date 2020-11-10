@@ -106,8 +106,12 @@ def show_images(file=os.listdir(mvtec_home + '/bottle/train/good')):
 
 
     interactive(children=(Dropdown(description='file', options=('097.png', '003.png', '089.png', '095.png', '201.p…
+<<<<<<< HEAD
 
 ![normal](./sample_img/1.png)
+=======
+!(normal)[./sample_img/1.png]
+>>>>>>> a294afbe0dd19d6c2be638b9d70d213e7f3df04f
 
 ### Abnormal - 'broken large'
 
@@ -135,6 +139,7 @@ def show_images(file=os.listdir(mvtec_home + '/bottle/ground_truth/broken_large'
 
 
     interactive(children=(Dropdown(description='file', options=('001_mask.png', '010_mask.png', '014_mask.png', '0…
+
 ![mask](./sample_img/3.png)
 
 ### Abnormal - 'contamination'
@@ -148,6 +153,7 @@ def show_images(file=os.listdir('/lab_shared/datasets/mvtec-ad/bottle/test/conta
 
 
     interactive(children=(Dropdown(description='file', options=('003.png', '006.png', '016.png', '010.png', '015.p…
+
 ![abnormal2](./sample_img/4.png)
 
 ### Abnormal for another type = 'transistor/misplaced'
@@ -161,4 +167,5 @@ def show_images(file=os.listdir('/lab_shared/datasets/mvtec-ad/transistor/test/m
 
 
     interactive(children=(Dropdown(description='file', options=('003.png', '006.png', '008.png', '001.png', '009.p…
+
 ![abnormal3](./sample_img/5.png)
